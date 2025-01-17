@@ -81,12 +81,10 @@ footer {
 
 .content-container {
     text-align: center;
-    /* Centers the content horizontally */
 }
 
 h1 {
     margin-bottom: 20px;
-    /* Space between header and rectangles */
     font-size: 28px;
     font-style: bold;
     color: #333;
@@ -96,7 +94,6 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 20px;
-    /* Space between rectangles */
 }
 
 .rounded-rectangle {
@@ -217,7 +214,7 @@ h1 {
 }
 
 
-/* Style for the projects section */
+
 
 #projects {
     padding: 50px 20px;
@@ -244,7 +241,6 @@ h1 {
 }
 
 
-/* Style for individual projects */
 
 .project,
 .projects {
@@ -267,7 +263,6 @@ h1 {
 }
 
 
-/* Project description */
 
 .project p,
 .projects p {
@@ -275,8 +270,6 @@ h1 {
     font-size: 16px;
 }
 
-
-/* GitHub link styling */
 
 .project a,
 .projects a {
