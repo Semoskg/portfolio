@@ -95,13 +95,14 @@ body {
         margin-bottom: 10px;
     }
     .navlist {
-        display: block;
+        display: flex; /* Changed from block to flex */
+        flex-wrap: wrap; /* Allows wrapping if necessary */
+        gap: 10px; /* Adds spacing between items */
         margin-top: 10px;
     }
     .navlist a {
         margin-left: 0;
         font-size: 14px;
-        margin-bottom: 10px;
     }
 }
 
@@ -121,10 +122,12 @@ body {
     }
     .navlist {
         margin-left: auto;
+        display: flex; /* Ensures horizontal alignment */
+        gap: 20px; /* Adjust spacing between items */
     }
     .navlist a {
         font-size: 16px;
-        margin-left: 40px;
+        margin-left: 0; /* No extra left margin */
     }
 }
 
@@ -142,9 +145,13 @@ body {
         width: 100px;
         height: 90px;
     }
+    .navlist {
+        display: flex; /* Ensures horizontal alignment */
+        gap: 30px; /* Adjust spacing between items */
+    }
     .navlist a {
         font-size: 15px;
-        margin-left: 60px;
+        margin-left: 0; /* No extra left margin */
     }
 }
 
