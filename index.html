@@ -3,8 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+
 
 </head>
 
@@ -15,7 +18,7 @@
             <img src="logo.jpg" alt="Logo" class="logo">
             <div class="name-title">
                 <h1> Samuel Kumela </h1>
-                <p> Web devloper | Backend</p>
+                <p> Web devloper | Backend </p>
             </div>
         </div>
     </section>
@@ -25,12 +28,16 @@
             <li> <a href="#home"> Home</a></li>
             <li> <a href="#about"> About</a></li>
             <li> <a href="#projects"> Projects</a></li>
+            <li> <a href="#gallery"> gallery</a></li>
             <li> <a href="#contact"> Contact</a></li>
+
         </ul>
     </header>
 
+
     <section id="about">
         <div class="about-container">
+
             <h2>About Me</h2>
             <p>
                 Hello! I am Samuel Kumela Gebremariam, I am a studnet in American college of tecnology and thrid year compter science . I like to build and make website that are responsive and fast. Looking for an opportunity to work in a challenging position combining
@@ -42,62 +49,82 @@
         <div class="container">
             <h2>Projects</h2>
             <div class="project">
-                <h3>project1</h3>
+                <h3>randomwallpaper-generator project</h3>
                 <p>
                 </p>
                 <a href="https://github.com/Semoskg/randomwallpaper-generator.git" target="_blank">View on GitHub</a>
             </div>
             <div class="projects">
-                <h3>project 2 </h3>
+                <h3>IMAGE-SEARCH-ENGINE project</h3>
                 <a href=" https://github.com/Semoskg/IMAGE-SEARCH-ENGINE.git  " target="_blank">View on GitHub</a>
             </div>
         </div>
+    </section>
+    <section id="gallery">
+        <div class="intro">
+            <h2>Image Gallery</h2>
+            <p>Screen Shots Of My Projects</p>
+            <div id="image-gallery">
+                <img id="current-image" src="images/image1.jpg" alt="Image 1">
+                <div id="image-thumbs"></div>
+            </div>
+        </div>
+        <script src="script.js"></script>
     </section>
 
     <section id="skills">
         <div class="content-container">
             <h1><b>Skills</b></h1>
 
-            <div class="rectangle-container">
+            <marquee behavior="scroll" direction="left">
+                <div class="rectangle-container">
+                    <div class="rounded-rectangle">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML Logo" width="40"> HTML
+                    </div>
+                    <div class="rounded-rectangle" style="background-color: #ff5722;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS Logo" width="30"> CSS
+                    </div>
+                    <div class="rounded-rectangle" style="background-color: #4caf50;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo" width="40"> JavaScript
+                    </div>
+                    <div class="rounded-rectangle" style="background-color: #7377ad;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" alt="PHP Logo" width="40"> PHP
+                    </div>
+                </div>
+            </marquee>
+        </div>
 
-                <div class="rounded-rectangle">HTML</div>
-                <div class="rounded-rectangle" style="background-color: #ff5722;">CSS</div>
-                <div class="rounded-rectangle" style="background-color: #4caf50;">JAVA SCRIPT</div>
-            </div>
     </section>
+
+
 
     <section id="contact">
         <div class="container">
             <h2>Contact Me</h2>
 
+            <section class="contact-section">
 
-        </div>
-    </section>
-    <div class="card-container">
-        <div class="card">
-            <h4>SOCIAL MEDIA </h4>
-            <img src="social.png" width="400px">
-            <p>To stay updated with my latest work and projects.</p>
-            <p>Phone: +251961279645</p>
-        </div>
-        <div class="card">
-            <h4>EMAIL</h4>
-            <img src="email.png" width="100px">
-            <p>Get in touch via Email .
-                <p>Email: <b> <a href="samuelkumelag@gmail.com">samuelkumelag@gmail.com</a></b></p>
-            </p>
-        </div>
-        <div class="card">
-            <h4>GitHub</h4>
-            <a href="https://github.com/semoskg/"><img src="git.png"> </a>
-            <p>
-                my git repository
-            </p>
+                <div class="contact-info">
+                    <p>
+                        Phone: <a href="tel:+251961279645">+251 961 279 645</a>
+                    </p>
+                </div>
+                <div class="social-icons">
+                    <a href="https://instagram.com/" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram">
+                    </a>
+                    <a href="mailto:samuelkumelag@gmail.com">
+                        <img src="https://cdn-icons-png.flaticon.com/512/732/732223.png" alt="Email">
+                    </a>
+                    <a href="https://behance.net/" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Behance">
+                    </a>
+                    <a href="https://github.com/semoskg/" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="GitHub">
+                    </a>
+                </div>
 
-        </div>
-    </div>
-
-
+            </section>
 </body>
 <footer>
 
